@@ -100,18 +100,28 @@ Key issues:
 - **NFR-01**: Compliance with privacy (PII masking, Sweden residency) [1]  
 - **NFR-02**: Scalable for full claim volume  
 - **NFR-03**: High availability during business hours  
-- **NFR-04**: Simple UI, minimal training required  
+- **NFR-04**: Simple UI, minimal training required
+  
+## 6. What Could Go Wrong (Risks and Mitigation)
 
----
+### Key Risks & Mitigation Strategies
 
-📌 **References**
-1. Internal claim system benchmarks & business data
+- **Investigation Overload**  
+  - *Risk*: AI may surface too many claims, overwhelming investigators  
+  - *Mitigation*: Expand team capacity and use AI-driven triage to prioritize the most critical cases  
 
+- **Alert Fatigue**  
+  - *Risk*: Too many notifications could reduce team efficiency and focus  
+  - *Mitigation*: Optimize alerting so only high-value, necessary claims are flagged  
 
-6. What Could Go Wrong (Risks and Mitigation)
+- **Data Privacy Issues**  
+  - *Risk*: Handling sensitive claim data may cause compliance or security risks  
+  - *Mitigation*: Strict adherence to privacy regulations, data masking, and secure storage  
 
-There are a few risks to watch out for. 
-First, the AI will find so many claims that our investigation team could get overwhelmed. 
-To prevent this, we will need to expand our team and utilize AI to prioritize claims, allowing them to focus on the most critical ones first. 
-There's also a risk that our team could get tired from too many alerts, so we need to make sure the system only flags what's truly necessary. 
-We will also be very careful with data privacy. Finally, we need to have a plan in case the AI technology has problems, and we will provide training and support to help our team get used to the new way of working.
+- **AI System Reliability**  
+  - *Risk*: AI model or system failures could disrupt workflows  
+  - *Mitigation*: Define fallback processes, ensure monitoring, and create contingency plans  
+
+- **Change Management & Training**  
+  - *Risk*: Investigators may struggle to adapt to the new AI-driven workflow  
+  - *Mitigation*: Provide training, documentation, and ongoing support for smooth adoption  
