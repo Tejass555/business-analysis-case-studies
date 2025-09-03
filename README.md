@@ -1,4 +1,4 @@
-# business-analysis-case-studies
+# BizChat Multi‑AI Optimization
 
 case-studies: AI-Enhanced Claim Part Identification
 
